@@ -20,7 +20,6 @@ tgbot
 
 ## 🛠️ Requirements
 
-- Python 3.x (for local development)
 - Docker
 - Docker Compose
 
@@ -49,7 +48,7 @@ ALLOWED_USERS=123456789,987654321
 Use Docker Compose to build and start the bot:
 
 ```bash
-docker-compose up --build
+docker-compose build && docker-compose up -d && docker-compose logs -f
 ```
 
 ### 4️⃣ Interact with the Bot
@@ -71,7 +70,7 @@ By default, the bot responds to `/help` and any text message.
   `docker-compose up --build`
 
 - 🔄 **Rebuild after changes small adjustments inside src/bot.py:**  
-  `docker-compose up --build`
+  `docker-compose restart`
 
 ## 📄 License
 
