@@ -41,8 +41,6 @@ BOT_TOKEN=your_bot_token
 ALLOWED_USERS=123456789,987654321
 ```
 
-> **Note:** `.env` is in `.gitignore` and will not be pushed to GitHub.
-
 ### 3️⃣ Build and Run the Bot
 
 Use Docker Compose to build and start the bot:
