@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-This project is a simple starter template for a Telegram bot written in Python using the [python-telegram-bot](https://python-telegram-bot.org/) library.  
+This project is a simple lightweight template for a Telegram bot written in Python using the [python-telegram-bot](https://python-telegram-bot.org/) library.  
 It is ready to run in Docker and easily configurable for your own logic. Also it doesnot spam requests it's procceding.
 
 ## 📁 Project Structure
