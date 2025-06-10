@@ -1,0 +1,9 @@
+version: "3"
+services:
+  python:
+    build:
+      context: .
+    env_file:
+      - .env
+    volumes:
+      - ./src/bot.py:/app/src/bot.py # Mount the bot.py file to make quick changes in bot code
