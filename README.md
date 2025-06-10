@@ -14,7 +14,7 @@ tgbot
 ├── Dockerfile              # Dockerfile to build the bot image
 ├── docker-compose.yml      # Docker Compose configuration
 ├── requirements.txt        # Python dependencies
-├── .env.example            # Environment variables (not in repo)
+├── .env.example            # Environment variables example file
 └── README.md               # Project documentation
 ```
 
